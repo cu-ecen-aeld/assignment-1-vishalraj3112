@@ -4,7 +4,7 @@ writefile=$1 #1 argument is the file directory path
 writestr=$2 #2 argument is the string to be searched
 
 if [ "$#" -eq 0 ] || [ "$#" -eq 1 ]; then 
-	echo  "Error: Wrong arguments!"
+	echo  "Error: Wrong arguments! "
 	exit 1
 fi
 

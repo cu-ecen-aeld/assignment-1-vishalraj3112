@@ -4,7 +4,7 @@ searchstr=$2 #2 argument is the string to be searched
 
 #argument number checking
 if [ "$#" -eq 0 ] || [ "$#" -eq 1 ]; then 
-	echo  "Error: Wrong arguments!"
+	echo  "Error: Wrong arguments! "
 	exit 1
 fi
 
